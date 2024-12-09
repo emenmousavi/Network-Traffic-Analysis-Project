@@ -15,8 +15,17 @@ Anomaly detection techniques were applied to identify unusual traffic patterns.
 
 ## Results
 - **Protocol Distribution**: The most common protocols include ARP and NBNS.
+  ![Protocol Distribution](https://github.com/user-attachments/assets/b47561aa-f334-4acc-bd9b-63a948dae3fd)
+
 - **Packet Length Distribution**: The majority of packets fall within a typical size range, with some outliers suggesting irregularities.
-- **Source and Destination IPs**: A few source IPs dominate the traffic, with some destination IPs showing concentrated communication.
+  ![Packet Length Distribution](https://github.com/user-attachments/assets/46fff15f-4da3-4765-903b-0a15cb23caa4)
+
+- **Top 10 Source IPs**: A few source IPs dominate the traffic.
+  ![Top 10 Source IPs](https://github.com/user-attachments/assets/1fc3ce3b-843b-4109-a929-5ae0709961be)
+
+- **Packet Distribution Over Time**: The distribution of packets over the time period.
+  ![Packet Distribution Over Time](https://github.com/user-attachments/assets/9e6db047-c8a6-4e0a-beb8-7967d86c8d5b)
+
 
 ## Analysis and Discussion
 The protocol distribution appears typical, but irregular packet lengths indicate possible misconfigurations or traffic shaping. Dominant source IPs suggest centralized services or network anomalies.
