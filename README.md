@@ -33,7 +33,9 @@ This graph shows the top 10 source IPs by frequency. The IP 192.167.7.162 domina
   ![Top 10 Source IPs](https://github.com/user-attachments/assets/1fc3ce3b-843b-4109-a929-5ae0709961be)
 
 - **Packet Distribution Over Time**: The distribution of packets over the time period.
-- 
+
+The "Packet Distribution Over Time" histogram shows the frequency of network events across specific time intervals. Peaks at certain times (e.g., around 400, 800, and 1200) suggest bursts of activity, possibly due to network congestion or batch processing. Between these bursts, activity is lower and more sporadic. These fluctuations in network traffic could indicate specific events or anomalies, and further analysis might help uncover the underlying causes of these bursts or patterns.
+
   ![Packet Distribution Over Time](https://github.com/user-attachments/assets/9e6db047-c8a6-4e0a-beb8-7967d86c8d5b)
 
 
