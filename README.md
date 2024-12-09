@@ -13,10 +13,12 @@ This project was created using **Python**, **Pandas** for data manipulation, and
 This project was given to me by my university and was a component of my academic development. I was responsible for cleaning the data, dealing with missing values, and producing graphics for protocol distributions, packet lengths, and source/destination IPs. In order to find odd traffic patterns, I also used anomaly detection techniques, which improved my technical proficiency with data processing and visualization tools as well as my practical understanding of network research.
 
 ## Methodology and Milestones
+
 The data was cleaned, and missing values were addressed to ensure proper analysis. Various visualizations were created to display key aspects of the network traffic, including:
 - Protocol distribution
 - Packet length distribution
 - Frequency of source and destination IPs
+
 Anomaly detection techniques were then applied to identify unusual traffic patterns. This process involved:
 - Data Cleaning and Preparation: Handling missing data for proper analysis.
 - Visualization Creation: Generating visualizations to understand traffic behavior and detect anomalies.
