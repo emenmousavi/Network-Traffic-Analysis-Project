@@ -2,13 +2,17 @@
 Network Traffic Analysis and Anomaly Detection
 
 ## Introduction
-This project analyzes network traffic data captured via Wireshark on October 9th, 2023. The dataset includes network traffic from a one-hour period, featuring source/destination IPs, protocols, and packet lengths. This dataset is valuable for understanding typical and unusual network patterns, which is crucial for identifying anomalies and enhancing network security.
+This project focuses on the analysis and identification of anomalies in network traffic data collected with Wireshark. The goal is to identify network communication patterns and detect any anomalies or suspicious activities. The data represents network activity during a one-hour period, including source and destination IP addresses, protocols, and packet sizes. Using visualization techniques, this study delves into traffic patterns and highlights areas that may require extra monitoring.
 
 You can access the dataset for this project from [Kaggle Network Traffic Dataset](https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset).
 
 ## Technical Overview
+This project was created using **Python**, **Pandas** for data manipulation, and **Matplotlib** for visualization. The code processes network traffic statistics, managing missing values and displaying protocol distributions, packet lengths, and source IP addresses. **Pandas** was used to clean and organize the data, while **Matplotlib** generated the charts required to examine traffic patterns and probable anomalies over time.
 
-This project was developed using **Python** with **Pandas** for data manipulation and **Matplotlib** for visualizations. The code processes network traffic data, handling missing values and visualizing protocol distributions, packet lengths, and source IPs. **Pandas** was used for data cleaning and organization, while **Matplotlib** created the necessary plots to analyze traffic patterns and potential anomalies over time.
+## GOALS
+- Analyze the network traffic data and identify common traffic patterns.
+- Visualize traffic behavior through protocol distributions, packet lengths, and source/destination IP addresses.
+- Apply anomaly detection techniques to highlight potential irregularities or security concerns in the traffic flow.
 
 ## Methodology
 The data was cleaned, and missing values were handled. Visualizations were created for:
