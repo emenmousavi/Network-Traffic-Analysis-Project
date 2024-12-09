@@ -2,7 +2,7 @@
 Network Traffic Analysis and Anomaly Detection
 
 ## Introduction
-This project analyzes network traffic data captured via Wireshark on October 9th, 2023. The dataset includes network traffic from a one-hour period, featuring source/destination IPs, protocols, and packet lengths. The goal is to visualize traffic patterns and identify potential anomalies.
+This project analyzes network traffic data captured via Wireshark on October 9th, 2023. The dataset includes network traffic from a one-hour period, featuring source/destination IPs, protocols, and packet lengths. This dataset is valuable for understanding typical and unusual network patterns, which is crucial for identifying anomalies and enhancing network security.
 
 You can access the dataset for this project from [Kaggle Network Traffic Dataset](https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset).
 
@@ -43,4 +43,5 @@ Peaks at intervals like 400, 800, and 1200 suggest bursts of activity, possibly 
 The protocol distribution shows common protocols like ARP and TCP, with few irregularities. However, the packet length distribution reveals high frequencies for lengths under 5000 bytes, which could suggest network traffic shaping. The concentration of specific source and destination IPs highlights key services or potential misconfigurations, pointing to areas for further investigation.
 
 ## Conclusion
-The analysis shows mostly typical network behavior with some irregularities requiring further investigation. Continuous monitoring and closer inspection of IP traffic patterns are recommended for network security and performance optimization. Identifying unusual patterns can help uncover hidden anomalies or inefficiencies.
+
+The analysis shows mostly typical network behavior with some irregularities requiring further investigation. It is recommended to continuously monitor traffic patterns and investigate IPs with high activity to ensure the network’s optimal performance and security.
