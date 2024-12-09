@@ -9,17 +9,18 @@ You can access the dataset for this project from [Kaggle Network Traffic Dataset
 ## Technical Overview
 This project was created using **Python**, **Pandas** for data manipulation, and **Matplotlib** for visualization. The code processes network traffic statistics, managing missing values and displaying protocol distributions, packet lengths, and source IP addresses. **Pandas** was used to clean and organize the data, while **Matplotlib** generated the charts required to examine traffic patterns and probable anomalies over time.
 
-## GOALS
-- Analyze the network traffic data and identify common traffic patterns.
-- Visualize traffic behavior through protocol distributions, packet lengths, and source/destination IP addresses.
-- Apply anomaly detection techniques to highlight potential irregularities or security concerns in the traffic flow.
+## Contribution
+This project was given to me by my university and was a component of my academic development. I was responsible for cleaning the data, dealing with missing values, and producing graphics for protocol distributions, packet lengths, and source/destination IPs. In order to find odd traffic patterns, I also used anomaly detection techniques, which improved my technical proficiency with data processing and visualization tools as well as my practical understanding of network research.
 
-## Methodology
-The data was cleaned, and missing values were handled. Visualizations were created for:
+## Methodology and Milestones
+The data was cleaned, and missing values were addressed to ensure proper analysis. Various visualizations were created to display key aspects of the network traffic, including:
 - Protocol distribution
 - Packet length distribution
 - Frequency of source and destination IPs
-- Anomaly detection techniques were applied to identify unusual traffic patterns.
+Anomaly detection techniques were then applied to identify unusual traffic patterns. This process involved:
+- Data Cleaning and Preparation: Handling missing data for proper analysis.
+- Visualization Creation: Generating visualizations to understand traffic behavior and detect anomalies.
+- Anomaly Detection: Identifying areas requiring further investigation based on observed patterns.
 
 ## Results
 - **Protocol Distribution**: The most common protocols include DNS and TCP.
