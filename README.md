@@ -4,6 +4,8 @@ Network Traffic Analysis and Anomaly Detection
 ## Introduction
 This project analyzes network traffic data captured via Wireshark on October 9th, 2023. The dataset includes network traffic from a one-hour period with key features such as source/destination IPs, protocols, and packet lengths. The goal is to visualize traffic patterns and identify potential anomalies.
 
+You can access the dataset for this project from [Kaggle Network Traffic Dataset](https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset).
+
 ## Methodology
 The data was cleaned and missing values were handled. Visualizations were created for:
 - Protocol distribution
