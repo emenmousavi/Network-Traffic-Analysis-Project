@@ -21,16 +21,14 @@ From the graph, we can see that TCP dominates the traffic, with over 300,000 pac
   ![Protocol Distribution](https://github.com/user-attachments/assets/b47561aa-f334-4acc-bd9b-63a948dae3fd)
   
 - **Packet Length Distribution**: The majority of packets fall within a typical size range, with some outliers suggesting irregularities.
-- 
+
+The majority of packets are small, with lengths concentrated near 0-1000 units, reflecting typical network traffic like control or small data packets. Sparse occurrences of large packets (above 10,000 units) suggest occasional large data transfers or anomalies.
+
   ![Packet Length Distribution](https://github.com/user-attachments/assets/46fff15f-4da3-4765-903b-0a15cb23caa4)
 
 - **Top 10 Source IPs**: A few source IPs dominate the traffic.
 
-Analysis:
 This graph shows the top 10 source IPs by frequency. The IP 192.167.7.162 dominates traffic, contributing significantly more than others, potentially indicating a central server or high-activity device. Lower frequencies in the other IPs suggest diverse but less intense traffic sources.
-
-Insight:
-Investigate the behavior of the top IP for potential misconfigurations, attacks, or legitimate high usage. Cross-check lower-frequency IPs for unusual patterns or anomalies.
 
   ![Top 10 Source IPs](https://github.com/user-attachments/assets/1fc3ce3b-843b-4109-a929-5ae0709961be)
 
