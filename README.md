@@ -40,7 +40,7 @@ The "Packet Distribution Over Time" histogram shows the frequency of network eve
 
 
 ## Analysis and Discussion
-The protocol distribution appears typical, but irregular packet lengths indicate possible misconfigurations or traffic shaping. Dominant source IPs suggest centralized services or network anomalies.
+The protocol distribution indicates common network protocols such as ARP and TCP, with few irregularities. However, the packet length distribution shows some unusually high frequencies below 5000 bytes, which might suggest network traffic patterns or traffic shaping. Dominant source IPs and destination IPs with concentrated communication suggest a few key nodes or services driving the network traffic, potentially highlighting areas for further investigation into misconfigurations or potential anomalies.
 
 ## Conclusion
-The analysis reveals normal traffic patterns with some irregularities that need further investigation. Ongoing monitoring and deeper inspection of IP traffic are recommended for improved security and performance.
+The analysis reveals mostly typical network behavior with some irregularities that warrant further investigation. Continuous monitoring is recommended to ensure the network remains secure and efficient, with closer scrutiny of IP traffic patterns to detect any potential issues.
