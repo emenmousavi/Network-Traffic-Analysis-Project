@@ -20,7 +20,7 @@ The data was cleaned, and missing values were addressed to ensure proper analysi
 - Frequency of source and destination IPs
 
 Anomaly detection techniques were then applied to identify unusual traffic patterns. This process involved:
-- **Data Cleaning and Preparation: **Handling missing data for proper analysis.
+- **Data Cleaning and Preparation:** Handling missing data for proper analysis.
 - **Visualization Creation:** Generating visualizations to understand traffic behavior and detect anomalies.
 - **Anomaly Detection:** Identifying areas requiring further investigation based on observed patterns.
 
