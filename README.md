@@ -6,6 +6,10 @@ This project analyzes network traffic data captured via Wireshark on October 9th
 
 You can access the dataset for this project from [Kaggle Network Traffic Dataset](https://www.kaggle.com/datasets/ravikumargattu/network-traffic-dataset).
 
+## Technical Overview
+
+This project was developed using **Python** with **Pandas** for data manipulation and **Matplotlib** for visualizations. The code processes network traffic data, handling missing values and visualizing protocol distributions, packet lengths, and source IPs. **Pandas** was used for data cleaning and organization, while **Matplotlib** created the necessary plots to analyze traffic patterns and potential anomalies over time.
+
 ## Methodology
 The data was cleaned, and missing values were handled. Visualizations were created for:
 - Protocol distribution
