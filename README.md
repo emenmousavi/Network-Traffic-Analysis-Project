@@ -17,6 +17,8 @@ Anomaly detection techniques were applied to identify unusual traffic patterns.
 - **Protocol Distribution**: The most common protocols include ARP and NBNS.
   ![Protocol Distribution](https://github.com/user-attachments/assets/b47561aa-f334-4acc-bd9b-63a948dae3fd)
 
+From the graph, we can see that TCP dominates the traffic, with over 300,000 packets, which is typical for most network communications. TLSv1.3 also stands out with around 75,000 packets, indicating secure encrypted traffic. The near-zero occurrences of ICMP and DNS suggest these protocols aren't being used much, possibly pointing to a focus on data transfer rather than diagnostic or name resolution operations. This might indicate the network is handling mainly secure, application-level traffic.
+
 - **Packet Length Distribution**: The majority of packets fall within a typical size range, with some outliers suggesting irregularities.
   ![Packet Length Distribution](https://github.com/user-attachments/assets/46fff15f-4da3-4765-903b-0a15cb23caa4)
 
