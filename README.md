@@ -16,7 +16,7 @@ Anomaly detection techniques were applied to identify unusual traffic patterns.
 ## Results
 - **Protocol Distribution**: The most common protocols include DNS and TCP.
   
-  From the graph, we can see that TCP dominates the traffic, with over 300,000 packets, which is typical for most network communications. TLSv1.3 also stands out with around 75,000 packets, indicating secure     encrypted traffic. The near-zero occurrences of ICMP and DNS suggest these protocols aren't being used much, possibly pointing to a focus on data transfer rather than diagnostic or name resolution operations. This might indicate the network is handling mainly secure, application-level traffic.
+From the graph, we can see that TCP dominates the traffic, with over 300,000 packets, which is typical for most network communications. TLSv1.3 also stands out with around 75,000 packets, indicating secure     encrypted traffic. The near-zero occurrences of ICMP and DNS suggest these protocols aren't being used much, possibly pointing to a focus on data transfer rather than diagnostic or name resolution operations. This might indicate the network is handling mainly secure, application-level traffic.
   
   ![Protocol Distribution](https://github.com/user-attachments/assets/b47561aa-f334-4acc-bd9b-63a948dae3fd)
   
@@ -25,7 +25,13 @@ Anomaly detection techniques were applied to identify unusual traffic patterns.
   ![Packet Length Distribution](https://github.com/user-attachments/assets/46fff15f-4da3-4765-903b-0a15cb23caa4)
 
 - **Top 10 Source IPs**: A few source IPs dominate the traffic.
-- 
+
+Analysis:
+This graph shows the top 10 source IPs by frequency. The IP 192.167.7.162 dominates traffic, contributing significantly more than others, potentially indicating a central server or high-activity device. Lower frequencies in the other IPs suggest diverse but less intense traffic sources.
+
+Insight:
+Investigate the behavior of the top IP for potential misconfigurations, attacks, or legitimate high usage. Cross-check lower-frequency IPs for unusual patterns or anomalies.
+
   ![Top 10 Source IPs](https://github.com/user-attachments/assets/1fc3ce3b-843b-4109-a929-5ae0709961be)
 
 - **Packet Distribution Over Time**: The distribution of packets over the time period.
