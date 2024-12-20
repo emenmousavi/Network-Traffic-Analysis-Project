@@ -55,4 +55,4 @@ The protocol distribution shows common protocols like ARP and TCP, with few irre
 
 ## Conclusion
 
-The analysis shows mostly typical network behavior with some irregularities requiring further investigation. It is recommended to continuously monitor traffic patterns and investigate IPs with high activity to ensure the network’s optimal performance and security.
+The analysis of network traffic, primarily using protocols like TCP and TLSv1.3, reveals typical patterns of communication with some anomalies that warrant further attention. The concentration of traffic from a single source IP and fluctuations in packet sizes over time could suggest areas for closer monitoring, such as potential security risks, misconfigurations, or network overloads. The identified patterns should guide further investigations into ensuring network efficiency and identifying possible security threats or performance bottlenecks.
